@@ -2,7 +2,7 @@
 Threads App has been a quite a rockstar whith the high number of users registered early after the release. Lets explore a collection of SQL queries which are designed to unearth valuable insights from a dataset of almost 37,000 users reviews.
 
 ## ⭐: What is the average rating of the app all time?
-SQL```
+```SQL
 select 
 count(rating) as Number_of_ratings, 
 avg(rating) as Average_rating
