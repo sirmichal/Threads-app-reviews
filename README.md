@@ -1,4 +1,4 @@
-#:bar_chart: Threads App Review Analysis Project
+:bar_chart: Threads App Review Analysis Project
 Threads App has been a quite a rockstar whith the high number of users registered early after the release. Lets explore a collection of SQL queries which are designed to unearth valuable insights from a dataset of almost 37,000 users reviews coming from two most popular moblie stores.
 
 ## :star: Top 5 Reviewers
