@@ -1,7 +1,7 @@
 # :bar_chart: Threads App Review Analysis Project
 Threads App has been a quite a rockstar whith the high number of users registered early after the release. Lets explore a collection of SQL queries which are designed to unearth valuable insights from a dataset of almost 37,000 users reviews coming from two most popular moblie stores.
 
-## :star: Top 5 Reviewers
+## :📂: Top 5 Reviewers
 Discover the most active users who have left reviews for our app. This query identifies the top 5 reviewers based on the number of reviews they've submitted. Gain insights into user engagement and contribution to the app's community.
 
 ## :chart_with_upwards_trend: Average Rating Over Time
