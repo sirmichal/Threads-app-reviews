@@ -1,7 +1,7 @@
 # :bar_chart: Threads App Review Analysis Project
 Threads App has been a quite a rockstar whith the high number of users registered early after the release. Lets explore a collection of SQL queries which are designed to unearth valuable insights from a dataset of almost 37,000 users reviews.
 
-## ⭐: What is the average rating of the app all time?
+## ⭐ What is the average rating of the app all time?
 ```SQL
 select 
 	COUNT(rating) as Number_of_ratings, 
@@ -12,7 +12,7 @@ Answer: Average rating is 3 and we have 36943 ratings from users.
 
 <img width="220" alt="image" src="https://github.com/sirmichal/Threads-app-reviews/blob/main/Q1_Average_Rating.PNG">
 
-## 📂: What are the sourcers of the reviews?
+## 📂 What are the sourcers of the reviews?
 ```SQL
 SELECT Distinct source
 FROM dbo.Reviews
@@ -21,7 +21,7 @@ Answer: There are two sources of the reviews, App Store and Google Play.
 
 <img width="120" alt="image" src="https://github.com/sirmichal/Threads-app-reviews/blob/main/Q2_sources.PNG">
 
-## 🏪: What is the average rating of app per store?
+## 🏪 What is the average rating of app per store?
 For the purpose of this question, let's divide our dataset into temporary tables. 
 ### Reviews from App Store.
 Let's create temporary table with App Store reviews.
@@ -73,7 +73,7 @@ Answer: There are 34943 reviews in Google Play with average rating of 3.
 
 <img width="300" alt="image" src="https://github.com/sirmichal/Threads-app-reviews/blob/main/Q3.4%20google%20reviews.PNG">
 
-## :chart_with_upwards_trend: Average Rating Over Time
+## 📈 Average Rating Over Time
 By calculating the average rating for each date, we can observe how user perceptions of the app have evolved. 
 ```SQL
 SELECT
@@ -92,7 +92,7 @@ Answer: Observation which we can make is that over the time the number of review
 
 <img width="200" alt="image" src="https://github.com/sirmichal/Threads-app-reviews/blob/main/Q4.%20rating%20per%20day.PNG">
 
-## 🔢:Number of reviews from the range of 2 and 4.
+## 🔢 Number of reviews from the range of 2 and 4.
 We would like to see the number of ratings from the range of 2 and 4 and additionaly compare it to number of other ratings. To see such information we need to use the below query.
 ```SQL
 SELECT
