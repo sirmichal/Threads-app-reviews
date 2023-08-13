@@ -23,7 +23,7 @@ Answer: There are two sources of the reviews, App Store and Google Play.
 
 ## 🏪: What is the average rating of app per store?
 For the purpose of this question, let's divide our dataset into temporary tables. 
-### First the the reviews from App Store.
+### Reviews from App Store.
 Let's create temporary table with App Store reviews.
 ```SQL
 DROP TABLE IF EXISTS #temp_App_Store_reviews
