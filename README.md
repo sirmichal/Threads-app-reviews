@@ -72,7 +72,7 @@ ORDER BY
     month, day
 ```
 Answer: Observation which we can make is that over the time the number of reviews and rating has been in descending trend. 
-## ⚖️:Number of reviews from the range of 2 and 4.
+## 🔢:Number of reviews from the range of 2 and 4.
 We would like to see the number of ratings from the range of 2 and 4 and additionaly compare it to number of other ratings. To see such information we need to use the below query.
 ```SQL
 SELECT
@@ -89,6 +89,3 @@ GROUP BY
 	END
 ```
 Answer: There are 8661 ratings of the App from range between 2 and 4. 
-
-## Percentage of Reviews with Comments/titles:
-Calculate the percentage of reviews that have comments or text, helping you understand how many users provide additional feedback.
